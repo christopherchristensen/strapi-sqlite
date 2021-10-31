@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/calendars",
-      "handler": "calendars.find",
+      "handler": "calendar.find",
       "config": {
         "policies": []
       }
@@ -11,7 +11,7 @@
     {
       "method": "GET",
       "path": "/calendars/count",
-      "handler": "calendars.count",
+      "handler": "calendar.count",
       "config": {
         "policies": []
       }
@@ -19,7 +19,7 @@
     {
       "method": "GET",
       "path": "/calendars/:id",
-      "handler": "calendars.findOne",
+      "handler": "calendar.findOne",
       "config": {
         "policies": []
       }
@@ -27,7 +27,7 @@
     {
       "method": "POST",
       "path": "/calendars",
-      "handler": "calendars.create",
+      "handler": "calendar.create",
       "config": {
         "policies": []
       }
@@ -35,7 +35,7 @@
     {
       "method": "PUT",
       "path": "/calendars/:id",
-      "handler": "calendars.update",
+      "handler": "calendar.update",
       "config": {
         "policies": []
       }
@@ -43,7 +43,7 @@
     {
       "method": "DELETE",
       "path": "/calendars/:id",
-      "handler": "calendars.delete",
+      "handler": "calendar.delete",
       "config": {
         "policies": []
       }
