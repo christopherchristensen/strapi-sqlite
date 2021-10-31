@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "calendars",
   "info": {
-    "name": "Calendar"
+    "name": "Calendar",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -51,7 +52,7 @@
       "required": true,
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
