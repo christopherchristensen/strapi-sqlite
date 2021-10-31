@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "calendars",
+  "info": {
+    "name": "Calendars"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "DateStart": {
+      "type": "date",
+      "private": false,
+      "required": true
+    },
+    "DateEnd": {
+      "type": "date",
+      "required": true
+    },
+    "PDF": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
