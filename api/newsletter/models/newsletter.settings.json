@@ -59,17 +59,6 @@
           "localized": true
         }
       }
-    },
-    "OrderByNumber": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "integer",
-      "required": true,
-      "min": 0,
-      "default": 0
     }
   }
 }
