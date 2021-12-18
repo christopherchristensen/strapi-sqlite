@@ -70,14 +70,17 @@
         }
       }
     },
-    "Visible": {
+    "OrderByNumber": {
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       },
-      "type": "boolean",
-      "default": true
+      "type": "integer",
+      "required": true,
+      "unique": false,
+      "min": 0,
+      "default": 0
     }
   }
 }
